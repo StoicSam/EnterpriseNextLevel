@@ -2,12 +2,13 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
-  color: #333;
+  background: #ffffff;
+  color: #221515;
+  text-align: center;
 }
 
 .site-header {
-  background: #1a1a1a;
+  background: #000000;
   color: #fff;
   padding: 15px 20px;
   display: flex;
@@ -24,12 +25,12 @@ body {
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: blue;
-  color: #fff;
+  background: rgb(237, 18, 18);
+  color: #ffffff;
 }
 
 .hero .btn {
-  background: #fff;
+  background: #ffffff;
   color: #ff6600;
   padding: 10px 20px;
   border: none;
@@ -40,18 +41,18 @@ body {
 
 .product-grid {
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  padding: 40px 20px;
-  background: #fff;
+  padding: 100px 50px;
+  background: #ffffff;
 }
 
 .product {
-  background: #fafafa;
-  padding: 20px;
-  border-radius: 8px;
+  background: #575555;
+  padding: 50px;
+  border-radius: 60%;
   text-align: center;
-}
 
 .product img {
   max-width: 100%;
@@ -68,6 +69,33 @@ body {
   cursor: pointer;
 }
 
+/* Yellow highlight (default-like) */
+.highlight-yellow {
+  background-color: yellow;
+  color: black;
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+/* Orange highlight */
+.highlight-orange {
+  background-color: orange;
+  color: white;
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+/* Custom blue highlight */
+.highlight-blue {
+  background-color: #007BFF;
+  color: white;
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+
+
+
 .about, .contact {
   padding: 40px 20px;
   background: #eee;
@@ -79,4 +107,22 @@ body {
   padding: 20px;
   background: #222;
   color: #ccc;
+}
+
+.earning {
+  background-color: antiquewhite;
+  border-radius: 2%;
+  text-align: center;
+  padding: 20px;
+}
+
+.earning-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 100px 50px;
+  background: #ffffff;
+  
+
 }
