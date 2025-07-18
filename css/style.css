@@ -7,6 +7,33 @@ body {
   text-align: center;
 }
 
+/*.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}*/
+
+/* For tablets and larger phones */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+
+/* For small phones */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .site-header {
   background: #000000;
   color: #fff;
@@ -87,6 +114,10 @@ body {
   border-radius: 5%;
   text-align: center;
   height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content:center;
   
 }
 
@@ -158,8 +189,8 @@ body {
 }
 
 .earning {
-  background-color: antiquewhite;
-  border-radius: 2%;
+  background-color: rgb(255, 254, 253);
+  border-radius: 10%;
   text-align: center;
   padding: 20px;
 }
@@ -171,6 +202,6 @@ body {
   gap: 20px;
   padding: 100px 50px;
   background: #ffffff;
-  
 
 }
+
